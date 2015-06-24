@@ -10,7 +10,9 @@ Since the IPT ships as a .war file, installing the IPT consists of deploying the
 
 This page explains how to install different types of servlet containers on your server, and how to deploy the IPT in them.
 
-It isn't necessary to use an Apache reverse proxy, but in case you do, this page also explains how to configure an Apache virtual host declaration for the IPT.
+If you use Tomcat and would like to front your instance with a proxy server, please read [https://www.mulesoft.com/tcat/tomcat-proxy-configuration this article] that compares the proxy servers most commonly used with Tomcat.
+
+In case you decide to use Apache HTTPD proxy server and do an Apache reverse proxy, sample configuration instructions for an Apache virtual host declaration for the IPT are provided below.
 
 ==Servlet Containers== 
 
